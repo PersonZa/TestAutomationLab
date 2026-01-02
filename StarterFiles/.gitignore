@@ -1,0 +1,13 @@
+# Robot Framework Outputs
+*.html
+*.xml
+*.png
+
+# Temporary Files
+*.tmp
+*.docx
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
