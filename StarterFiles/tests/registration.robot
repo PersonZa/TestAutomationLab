@@ -1,6 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
-Suite Setup    Open Browser    ${URL}    ${BROWSER}
+Suite Setup    Run Keywords    Open Browser    ${URL}    ${BROWSER}    AND    Set Selenium Speed    0.5s
 Suite Teardown    Close Browser
 Test Setup    Go To    ${URL}
 
